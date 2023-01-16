@@ -5,7 +5,7 @@ const About = () => (
   <>
     <br />
     <div className="about-container">
-      <h1 className="about-title" style={{ fontWeight: "630" }}>
+      <h1 className="about-title" style={{ fontWeight: "630",color:"white" }}>
         About
       </h1>
       <p className="about-text">

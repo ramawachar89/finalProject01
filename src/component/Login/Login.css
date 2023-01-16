@@ -1,0 +1,88 @@
+.main{
+    height: 100vh;
+    background: rgb(25,8,37);
+    background: linear-gradient(90deg, rgba(25,8,37,1) 0%, rgba(69,65,65,1) 50%, rgba(255,77,77,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form{
+  border: 1px solid black;
+  width: 80%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 15px 15px 15px rgb(10, 4, 4);
+  background: rgb(144,149,235);
+  background: linear-gradient(166deg, rgba(144,149,235,1) 4%, rgba(89,130,209,1) 48%, rgba(62,252,160,0.6393907904958859) 70%);
+  border-radius: 1em;
+  }
+  .email{
+    display: flex;
+    justify-content: space-between;
+    margin: 0em;
+    width: 100%;
+    padding-top: 1em;
+  }
+  .btn{
+    margin-top: 2em;
+    margin-left: 4.5em;
+    background-color: red;
+    box-shadow: 2px 2px 3px black;
+    color: white;
+    
+  }
+  .loginLink{
+    color:  rgb(224, 0, 0);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-weight: bolder;
+  }
+  
+  .popup{
+    position: absolute;
+    font-size: 1.2em;
+    width: 40%;
+    height: 3em;
+    /* padding-top: 1em; */
+    color: rgb(0, 0, 0);
+    top : 7em ;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .registraion{
+    position: absolute;
+    font-size: 1.2em;
+    width: 40%;
+    height: 3em;
+    padding-top: 1em;
+    /* /* color: rgb(0, 0, 0); */
+    top : 25em ;
+    left : 25em;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media screen and (max-width : 700px){
+    .popup{
+      width: 70%;
+      font-size: 1em;
+    }
+  
+    
+  }
+  
+    
+  
+  
+  
+  
+  
+  
